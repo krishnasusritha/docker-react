@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at allocator.Allocator.executeTestBatch(Allocator.java:71)
+	at allocator.Allocator.driveBatchExecution(Allocator.java:52)
+	at allocator.Allocator.main(Allocator.java:37)

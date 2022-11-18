@@ -1,0 +1,20 @@
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 11967
+Only local connections are allowed.
+java.io.FileNotFoundException: Source 'C:\Automation\PassportApplication_V3.0\Datatables\Deposit.xls' does not exist
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1074)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
+	at supportlibraries.DriverScript.initializeDatatable(DriverScript.java:363)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:103)
+	at allocator.ParallelRunner.invokeTestScript(ParallelRunner.java:66)
+	at allocator.ParallelRunner.run(ParallelRunner.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-1-thread-1" supportlibraries.com.ncr.framework.FrameworkException: Error in creating run-time datatable: Copying the datatable failed...
+	at supportlibraries.DriverScript.initializeDatatable(DriverScript.java:366)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:103)
+	at allocator.ParallelRunner.invokeTestScript(ParallelRunner.java:66)
+	at allocator.ParallelRunner.run(ParallelRunner.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

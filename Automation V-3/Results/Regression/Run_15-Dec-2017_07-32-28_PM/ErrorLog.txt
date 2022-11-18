@@ -1,0 +1,2 @@
+Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 34147
+Only local connections are allowed.
