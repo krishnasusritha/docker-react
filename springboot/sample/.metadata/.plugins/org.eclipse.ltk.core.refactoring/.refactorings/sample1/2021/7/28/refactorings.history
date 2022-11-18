@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sample1.sample1&apos; to &apos;CompositeDP&apos;&#x0D;&#x0A;- Original project: &apos;sample1&apos;&#x0D;&#x0A;- Original element: &apos;sample1.sample1&apos;&#x0D;&#x0A;- Renamed element: &apos;sample1.CompositeDP&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;sample1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sample1{sample1.java[sample1" matchStrategy="1" name="CompositeDP" qualified="false" references="true" similarDeclarations="false" stamp="1625551678618" textual="false" version="1.0"/>
+</session>

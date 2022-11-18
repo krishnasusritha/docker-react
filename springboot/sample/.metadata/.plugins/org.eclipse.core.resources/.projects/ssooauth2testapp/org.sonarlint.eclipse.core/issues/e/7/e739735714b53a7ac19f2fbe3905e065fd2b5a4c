@@ -1,0 +1,14 @@
+
+Xsquid:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÉRMINORZVULNERABILITY
+j
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ğ¾€„ıÿÿÿÿHÊRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(×£åşÿÿÿÿHËRMAJORZ
+CODE_SMELL
+_squid:S1989#"(Add a "try/catch" block for "getWriter".(¼½Ù†8×”¤­¨/HÌRMINORZVULNERABILITY
+dsquid:S1989="(Add a "try/catch" block for "sendError".( ¤‰±øÿÿÿÿ8×”¤­¨/HÍRMINORZVULNERABILITY
+fsquid:S2093&"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8×”¤­¨/HÎRCRITICALZ
+CODE_SMELL
+`squid:S1989E"$Add a "try/catch" block for "doGet".(—ôÖ¢øÿÿÿÿ8×”¤­¨/HÏRMINORZVULNERABILITY
+`squid:S1989E"$Add a "try/catch" block for "doGet".(—ôÖ¢øÿÿÿÿ8×”¤­¨/HĞRMINORZVULNERABILITY

@@ -1,0 +1,15 @@
+{
+	"id": 1,
+	"first": "first",
+	"last": "last",
+	"active": true,
+	"address": {
+		"street": "street",
+		"city": "city",
+		"state": "state",
+		"zipcode": "zipcode",
+		"country": "country"
+	},
+	"languages":["Java", "C++","C#"],
+	"abc":"abc"
+}

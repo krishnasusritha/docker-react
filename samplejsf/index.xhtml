@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+<html>
+<h:head>  
+<title>User Form</title>  
+</h:head>  
+<h:body> 
+<h:form>  
+<h:outputLabel for="username">User Name</h:outputLabel>  
+<h:inputText id="username" value="#{user.name}" required="true" requiredMessage="User Name is required" /><br/>  
+<h:commandButton id="submit-button" value="Submit" action="response.xhtml"/>  
+</h:form>  
+</h:body>  
+</html>

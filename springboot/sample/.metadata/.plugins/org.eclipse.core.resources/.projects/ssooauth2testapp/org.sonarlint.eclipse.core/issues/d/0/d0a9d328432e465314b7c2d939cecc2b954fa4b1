@@ -1,0 +1,69 @@
+
+‰squid:S30089"]Rename this field "KEY_STORE_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›”›EH˜RMINORZ
+CODE_SMELL
+ksquid:S1444$";Make this "public static TOKEN_JSON_PATH_SCOPE" field final(£ß­´H™RMINORZVULNERABILITY
+ª"squid:ClassVariableVisibilityCheck-"dMake TOKEN_JSON_PATH_LASTNAME a static final constant or non-public and provide accessors if needed.(ßÒ[HšRMINORZVULNERABILITY
+csquid:S1444"3Make this "public static KEY_FILE_PATH" field final(¢”Ä’H›RMINORZVULNERABILITY
+“squid:S30080"aRename this field "TOKEN_JSON_PATH_KEY_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÒ–ÖşÿÿÿÿHœRMINORZ
+CODE_SMELL
+Qsquid:S1860_"&Synchronize on a new "Object" instead.(òí˜øÿÿÿÿHRMAJORZBUG
+gsquid:S14443"7Make this "public static SSOOAUTH2_APP_URL" field final(Şş˜ÜHRMINORZVULNERABILITY
+squid:S3008'"aRename this field "TOKEN_JSON_PATH_USERID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¥ŠHŸRMINORZ
+CODE_SMELL
+§"squid:ClassVariableVisibilityCheckB"[Make CONFIG_FILEPATH a static final constant or non-public and provide accessors if needed.(ışüñıÿÿÿÿH RMINORZVULNERABILITY
+¨"squid:ClassVariableVisibilityCheck!"\Make PRIVATE_KEY_FILE a static final constant or non-public and provide accessors if needed.(£Âä—şÿÿÿÿH¡RMINORZVULNERABILITY
+squid:S3008"[Rename this field "PUBLIC_KEY_ALIAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü²»òÿÿÿÿÿH¢RMINORZ
+CODE_SMELL
+‹squid:S30086"^Rename this field "KEY_STORE_FILE_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¨³¾H£RMINORZ
+CODE_SMELL
+‚squid:S3008H"URename this field "m_Instance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ŸÎÂH¤RMINORZ
+CODE_SMELL
+ "squid:ClassVariableVisibilityCheck"YMake KEY_FILE_PATH a static final constant or non-public and provide accessors if needed.(¢”Ä’H¥RMINORZVULNERABILITY
+¨"squid:ClassVariableVisibilityCheck$"aMake TOKEN_JSON_PATH_SCOPE a static final constant or non-public and provide accessors if needed.(£ß­´H¦RMINORZVULNERABILITY
+rsquid:S1444?"BMake this "public static CLIENT_IDENTIFIER_WHITE_LIST" field final(ï´£—H§RMINORZVULNERABILITY
+…squid:S3008"XRename this field "KEY_FILE_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢”Ä’H¨RMINORZ
+CODE_SMELL
+ksquid:S1444!"6Make this "public static PRIVATE_KEY_FILE" field final(£Âä—şÿÿÿÿH©RMINORZVULNERABILITY
+squid:S3008!"[Rename this field "PRIVATE_KEY_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Âä—şÿÿÿÿHªRMINORZ
+CODE_SMELL
+”squid:S3008?"gRename this field "CLIENT_IDENTIFIER_WHITE_LIST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï´£—H«RMINORZ
+CODE_SMELL
+¤"squid:ClassVariableVisibilityCheck3"]Make SSOOAUTH2_APP_URL a static final constant or non-public and provide accessors if needed.(Şş˜ÜH¬RMINORZVULNERABILITY
+tsquid:S1444*"?Make this "public static TOKEN_JSON_PATH_FIRSTNAME" field final(Ù³Í»øÿÿÿÿH­RMINORZVULNERABILITY
+¯"squid:ClassVariableVisibilityCheck?"hMake CLIENT_IDENTIFIER_WHITE_LIST a static final constant or non-public and provide accessors if needed.(ï´£—H®RMINORZVULNERABILITY
+–squid:S3008*"dRename this field "TOKEN_JSON_PATH_FIRSTNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù³Í»øÿÿÿÿH¯RMINORZ
+CODE_SMELL
+tsquid:S00112K"FDefine and throw a dedicated exception instead of using a generic one.(§ô€ùH°RMAJORZ
+CODE_SMELL
+Œsquid:S3008E"ZRename this field "CONFIG_FILENAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö…èøûÿÿÿÿH±RMINORZ
+CODE_SMELL
+jsquid:S1444B"5Make this "public static CONFIG_FILEPATH" field final(ışüñıÿÿÿÿH²RMINORZVULNERABILITY
+squid:S3008-"cRename this field "TOKEN_JSON_PATH_LASTNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÒ[H³RMINORZ
+CODE_SMELL
+isquid:S14446"9Make this "public static KEY_STORE_FILE_PATH" field final(ô¨³¾H´RMINORZVULNERABILITY
+±"squid:ClassVariableVisibilityCheck*"eMake TOKEN_JSON_PATH_FIRSTNAME a static final constant or non-public and provide accessors if needed.(Ù³Í»øÿÿÿÿHµRMINORZVULNERABILITY
+®"squid:ClassVariableVisibilityCheck0"bMake TOKEN_JSON_PATH_KEY_ID a static final constant or non-public and provide accessors if needed.(åÒ–ÖşÿÿÿÿH¶RMINORZVULNERABILITY
+jsquid:S1444E"5Make this "public static CONFIG_FILENAME" field final(ö…èøûÿÿÿÿH·RMINORZVULNERABILITY
+§"squid:ClassVariableVisibilityCheckE"[Make CONFIG_FILENAME a static final constant or non-public and provide accessors if needed.(ö…èøûÿÿÿÿH¸RMINORZVULNERABILITY
+‡squid:S20689"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(›”›EH¹RBLOCKERZVULNERABILITY
+qsquid:S14440"<Make this "public static TOKEN_JSON_PATH_KEY_ID" field final(åÒ–ÖşÿÿÿÿHºRMINORZVULNERABILITY
+¦"squid:ClassVariableVisibilityCheck6"_Make KEY_STORE_FILE_PATH a static final constant or non-public and provide accessors if needed.(ô¨³¾H»RMINORZVULNERABILITY
+¤"squid:ClassVariableVisibilityCheck9"^Make KEY_STORE_PASSWORD a static final constant or non-public and provide accessors if needed.(›”›EH¼RMINORZVULNERABILITY
+squid:S3008$"`Rename this field "TOKEN_JSON_PATH_SCOPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ß­´H½RMINORZ
+CODE_SMELL
+tsquid:S00112^"FDefine and throw a dedicated exception instead of using a generic one.(Ê¯ ªH¾RMAJORZ
+CODE_SMELL
+Œsquid:S3008B"ZRename this field "CONFIG_FILEPATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ışüñıÿÿÿÿH¿RMINORZ
+CODE_SMELL
+ksquid:S1444"6Make this "public static PUBLIC_KEY_ALIAS" field final(ü²»òÿÿÿÿÿHÀRMINORZVULNERABILITY
+¨"squid:ClassVariableVisibilityCheck"\Make PUBLIC_KEY_ALIAS a static final constant or non-public and provide accessors if needed.(ü²»òÿÿÿÿÿHÁRMINORZVULNERABILITY
+tsquid:S00112Q"FDefine and throw a dedicated exception instead of using a generic one.(ìÆöôHÂRMAJORZ
+CODE_SMELL
+©"squid:ClassVariableVisibilityCheck'"bMake TOKEN_JSON_PATH_USERID a static final constant or non-public and provide accessors if needed.(ø¥ŠHÃRMINORZVULNERABILITY
+lsquid:S1444'"<Make this "public static TOKEN_JSON_PATH_USERID" field final(ø¥ŠHÄRMINORZVULNERABILITY
+gsquid:S14449"8Make this "public static KEY_STORE_PASSWORD" field final(›”›EHÅRMINORZVULNERABILITY
+Xsquid:S1075B"&Remove this hard-coded path-delimiter.(ışüñıÿÿÿÿHÆRMINORZ
+CODE_SMELL
+msquid:S1444-">Make this "public static TOKEN_JSON_PATH_LASTNAME" field final(ßÒ[HÇRMINORZVULNERABILITY
+‰squid:S30083"\Rename this field "SSOOAUTH2_APP_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şş˜ÜHÈRMINORZ
+CODE_SMELL

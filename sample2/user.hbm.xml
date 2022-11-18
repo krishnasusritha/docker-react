@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+  
+ <hibernate-mapping>  
+ <class name="sample2.User" table="user" discriminator-value="user">  
+ <id name="id">  
+ <generator class="increment"></generator>  
+ </id>  
+ <discriminator column="type" type="String"/>
+ <property name="name"></property>   
+ 
+ <subclass name="sample2.BankUser" discriminator-value="bank">
+ <property name="bankName"/>
+ <property name="NoOfCustomers"/>
+ </subclass>
+ 
+ <subclass name="sample2.CustomerUser" discriminator-value="cust">  
+<property name="customerType"></property>  
+<property name="customerPlace"></property>  
+</subclass>
+ 
+ </class>  
+         
+ </hibernate-mapping>
+ 

@@ -1,0 +1,40 @@
+
+tsquid:S2095l"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(øÕâÙHMRBLOCKERZBUG
+ssquid:S00112p"FDefine and throw a dedicated exception instead of using a generic one.(à¨ƒ¤HNRMAJORZ
+CODE_SMELL
+ssquid:S00112h"FDefine and throw a dedicated exception instead of using a generic one.(‹–àHORMAJORZ
+CODE_SMELL
+€squid:S00116"SRename this field "m_Config" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áı’òHPRMINORZ
+CODE_SMELL
+i
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ß³‰ùÿÿÿÿHQRMAJORZ
+CODE_SMELL
+i
+squid:S106,"9Replace this use of System.out or System.err by a logger.(Åî’¤ùÿÿÿÿHRRMAJORZ
+CODE_SMELL
+d
+squid:S106-"9Replace this use of System.out or System.err by a logger.(³ë…¨HSRMAJORZ
+CODE_SMELL
+d
+squid:S1061"9Replace this use of System.out or System.err by a logger.(¡Œ”HTRMAJORZ
+CODE_SMELL
+d
+squid:S106:"9Replace this use of System.out or System.err by a logger.(¢ŠààHURMAJORZ
+CODE_SMELL
+d
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ÁÃé‚HVRMAJORZ
+CODE_SMELL
+Xsquid:S1989C"$Add a "try/catch" block for "doGet".(Í­°¨ûÿÿÿÿHWRMINORZVULNERABILITY
+Xsquid:S1989C"$Add a "try/catch" block for "doGet".(Í­°¨ûÿÿÿÿHXRMINORZVULNERABILITY
+i
+squid:S106K"9Replace this use of System.out or System.err by a logger.(à¶¿ªøÿÿÿÿHYRMAJORZ
+CODE_SMELL
+Xsquid:S1989L"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿHZRMINORZVULNERABILITY
+Xsquid:S1989L"$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿH[RMINORZVULNERABILITY
+d
+squid:S106["9Replace this use of System.out or System.err by a logger.(ÆÀûıH\RMAJORZ
+CODE_SMELL
+i
+squid:S106j"9Replace this use of System.out or System.err by a logger.(È²ä¨ÿÿÿÿÿH]RMAJORZ
+CODE_SMELL
+}squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Áı’òH^RMAJORZBUG
