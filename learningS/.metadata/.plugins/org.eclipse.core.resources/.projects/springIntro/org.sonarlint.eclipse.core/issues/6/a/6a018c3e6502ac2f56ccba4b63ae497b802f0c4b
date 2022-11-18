@@ -1,0 +1,15 @@
+
+Xsquid:S2629R"$Invoke method(s) only conditionally.(™óà¶8Ã¢ü¹Ã/H¹RMAJORZ
+CODE_SMELL
+psquid:S2629v"7Use the built-in formatting to construct this argument.(¼æüúùÿÿÿÿ8¹ú¹Ã/H·RMAJORZ
+CODE_SMELL
+dsquid:S1481l"+Remove this unused "result" local variable.(Øã¶šüÿÿÿÿ8ˆŠì¹Ã/H½RMINORZ
+CODE_SMELL
+Œsquid:S1192"UDefine a constant instead of duplicating this literal "Entered @PoinCut dec" 5 times.(œúè¨8êóÀ³Ã/H¸RCRITICALZ
+CODE_SMELL
+Xsquid:S2629J"$Invoke method(s) only conditionally.(™óà¶8Ã¢ü¹Ã/H¼RMAJORZ
+CODE_SMELL
+jsquid:S1135n"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÁÌ‚ºÃ/H»RINFOZ
+CODE_SMELL
+ssquid:S1854l":Remove this useless assignment to local variable "result".(Øã¶šüÿÿÿÿ8ˆŠì¹Ã/HºRMAJORZ
+CODE_SMELL

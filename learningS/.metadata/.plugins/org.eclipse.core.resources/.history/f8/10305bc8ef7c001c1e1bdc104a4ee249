@@ -1,0 +1,188 @@
+package sampleMvnProject.sampleMvnProject;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+
+	int size = 5;
+	int[] a = new int[size];
+
+	public static final String SYNONYMS = "synonyms";
+	public static final String DIFFERENT = "different";
+
+	public static void main(String[] args) throws IOException {
+
+		FileReader fr = new FileReader("C:\\Users\\km185264\\Downloads\\test.in");
+		BufferedReader br = new BufferedReader(fr);
+		int i;
+
+		BufferedWriter bw = null;
+		File file = new File("C:\\\\Users\\\\km185264\\\\Downloads\\\\test.out");
+
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+
+		FileWriter fw = new FileWriter(file);
+		bw = new BufferedWriter(fw);
+
+		int count = Integer.parseInt(br.readLine());
+		Map<String, String> map = new HashMap<>();
+		while (count > 0) {
+			int lines = Integer.parseInt(br.readLine());
+			while (lines > 0) {
+				String read = br.readLine();
+				if (!read.isEmpty()) {
+					if (!map.containsKey(read.split(" ")[0].toLowerCase())) {
+						map.put(read.split(" ")[0].toLowerCase(), read.split(" ")[1].toLowerCase());
+					} else if (!map.containsKey(read.split(" ")[1].toLowerCase())) {
+						map.put(read.split(" ")[1].toLowerCase(), read.split(" ")[0].toLowerCase());
+					}
+				}
+
+				// bw.write(map.values());
+				lines--;
+			}
+			int linesCheck = Integer.parseInt(br.readLine());
+			while (linesCheck > 0) {
+				String read = br.readLine();
+				if (!read.isEmpty()) {
+					String s1 = read.split(" ")[0];
+					String s2 = read.split(" ")[1];
+					if (s1.equalsIgnoreCase(s2)) {
+						bw.write(SYNONYMS);
+						bw.newLine();
+					} else if (map.containsKey(s1)) {
+						if (map.get(s1).equalsIgnoreCase(s2)) {
+							bw.write(SYNONYMS);
+							bw.newLine();
+						} else if (map.containsKey(map.get(s1)) && map.get(map.get(s1)).equalsIgnoreCase(s2)) {
+							bw.write(SYNONYMS);
+							bw.newLine();
+						} else {
+							bw.write(DIFFERENT);
+							bw.newLine();
+						}
+					} else if (map.containsValue(s1)) {
+						List<String> list = new ArrayList<>();
+						map.entrySet().stream()
+								.filter(entry -> s1.equalsIgnoreCase(entry.getValue())
+										|| s1.equalsIgnoreCase(map.get(entry.getValue())))
+								.map(Map.Entry::getKey).forEach(list::add);
+						if (list.contains(s2)) {
+							bw.write(SYNONYMS);
+							bw.newLine();
+						} else {
+							bw.write(DIFFERENT);
+							bw.newLine();
+						}
+					} else {
+						bw.write(DIFFERENT);
+						bw.newLine();
+					}
+				}
+				linesCheck--;
+			}
+			count--;
+		}
+		br.close();
+		fr.close();
+
+		bw.close();
+		fw.close();
+
+	}
+
+	// BINARY SEARCH
+	public int binarySearch() {
+
+		int low = 0;
+		int high = size - 1;
+		int mid = 0;
+		int number = 4;
+		while (low <= high) {
+			mid = (low + high) / 2;
+			if (number == a[mid]) {
+				return mid;
+			} else if (number < a[mid]) {
+				high = mid - 1;
+			} else if (number > a[mid]) {
+				low = mid + 1;
+			}
+		}
+		return -1;
+	}
+
+	public int searchOrInsertSorted(int n) {
+		for (int i = 0; i < size; i++) {
+			if (a[i] == n) {
+				return i;
+			} else if (a[i] > n) {
+				return i - 1;
+			}
+		}
+		return size;
+	}
+
+	// Bubble sort
+	public void bubbleSort() {
+		int temp;
+		boolean swap;
+		for (int i = 0; i < size - 1; i++) {
+			swap = false;
+			for (int j = 0; j < size - i - 1; j++) {
+				if (a[j] > a[j + 1]) {
+					temp = a[j];
+					a[j] = a[i];
+					a[i] = temp;
+					swap = true;
+				}
+			}
+			if (swap = false) {
+				break;
+			}
+		}
+	}
+
+	// Selection sort
+	public void selectionSort() {
+		for (int i = 0; i < a.length - 1; i++) {
+			int minIndex = i;
+			for (int j = i + 1; j < a.length - i - 1; j++) {
+				if (a[j] < a[minIndex]) {
+					minIndex = j;// searching for lowest index
+				}
+			}
+			int smallerNumber = a[minIndex];
+			a[minIndex] = a[i];
+			a[i] = smallerNumber;
+		}
+	}
+
+	// Insertion sort
+	public void insertionSort() {
+		int j = 0;
+		for (int i = 1; i < a.length - 1; i++) {
+			int temp = a[i];
+			j = i - 1;
+			while (j >= 0 && temp < a[j]) {
+				a[j + 1] = a[j];
+				j--;
+			}
+			
+		}
+	}
+}

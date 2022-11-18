@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\km185264\learningS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2068325631.index
+3967536176.index
+485642199.index
+957829629.index
+978437177.index
+223551499.index
+969968605.index

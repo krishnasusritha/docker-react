@@ -1,0 +1,18 @@
+
+~squid:UselessImportCheck"=Remove this unused import 'java.time.temporal.TemporalField'.(¡¶»ç8Èö€Í/HÆRMINORZ
+CODE_SMELL
+}squid:UselessImportCheck"7Remove this unused import 'java.util.stream.Collector'.(ß‹ÎÓøÿÿÿÿ8Íÿ¼Î/HÇRMINORZ
+CODE_SMELL
+]squid:S3655H"7Call "Optional#isPresent()" before accessing the value.(Ï²ï³HÈRMAJORZBUG
+„squid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(¨˜ÈŸÿÿÿÿÿ8Áø¾Î/HÉRMAJORZ
+CODE_SMELL
+zsquid:UselessImportCheck"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8Èö€Í/HÊRMINORZ
+CODE_SMELL
+rsquid:S2184T"FCast one of the operands of this multiplication operation to a "long".(ÈºìK8ãÉÁ€Í/HËRMINORZBUG
+squid:CommentedOutCodeLineZ"<This block of commented-out lines of code should be removed.(ÜÇß˜8Áø¾Î/HÌRMAJORZ
+CODE_SMELL
+rsquid:S1155;">Use isEmpty() to check whether the collection is empty or not.(ìğ¬ü8Æ–Ç€Í/HÍRMINORZ
+CODE_SMELL
+tsquid:UselessImportCheck
+".Remove this unused import 'java.time.Instant'.(Â‚éñÿÿÿÿÿ8êºƒ„Ì/HÎRMINORZ
+CODE_SMELL

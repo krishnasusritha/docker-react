@@ -1,0 +1,9 @@
+
+tsquid:S2259q"BA "NullPointerException" could be thrown; "slow" is nullable here.(‡£ïòüÿÿÿÿ8ÌôÀ„è/H¦RMAJORZBUG
+l
+squid:S106H"9Replace this use of System.out or System.err by a logger.(ëÄöÛ8¢£§»ç/H§RMAJORZ
+CODE_SMELL
+ssquid:S1854‘"9Remove this useless assignment to local variable "start".(Æƒ–ûÿÿÿÿ8è„à‹è/H¨RMAJORZ
+CODE_SMELL
+dsquid:S1481‘"*Remove this unused "start" local variable.(Æƒ–ûÿÿÿÿ8è„à‹è/H©RMINORZ
+CODE_SMELL

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+--><!-- The contents of this file will be loaded for each web application --><Context>
+
+	<!-- Default set of monitored resources. If one of these changes, the    -->
+	<!-- web application will be reloaded.                                   -->
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+	<WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+
+	<!-- Uncomment this to disable session persistence across Tomcat restarts -->
+	<Manager pathname=""/>
+	
+	<!-- Define ActiveMQ Connection Factory and expose to JNDI as java:comp/env/jms/CPWEConnectionFactory -->
+	<Resource auth="Container" brokerURL="${activemq.brokerUrl}" description="ConnectionFactory for remote ActiveMQ" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="jms/CPWEConnectionFactory" type="org.apache.activemq.ActiveMQConnectionFactory"/>
+
+	<!-- Define the queues used. -->
+	<Resource auth="Container" description="Rules Queue" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="queue/CPWERulesQueue" physicalName="CPWERulesQueue" type="org.apache.activemq.command.ActiveMQQueue"/>
+		
+	<Resource auth="Container" description="Report Queue" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="queue/CPWEReportQueue" physicalName="CPWEReportQueue" type="org.apache.activemq.command.ActiveMQQueue"/>
+		
+	<Resource auth="Container" description="Report Schedule Queue" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="queue/CPWEReportScheduledQueue" physicalName="CPWEReportScheduledQueue" type="org.apache.activemq.command.ActiveMQQueue"/>
+		
+	<Resource auth="Container" description="Report Schedule Queue" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="queue/CPWEReceiveQueue" physicalName="CPWEReceiveQueue" type="org.apache.activemq.command.ActiveMQQueue"/>
+		
+	<Resource auth="Container" description="Report Schedule Queue" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="queue/CPWEDepositAdviceQueue" physicalName="CPWEDepositAdviceQueue" type="org.apache.activemq.command.ActiveMQQueue"/>
+		
+	<Resource auth="Container" description="Review Rules Queue" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="queue/CPWEReviewRulesQueue" physicalName="CPWEReviewRulesQueue" type="org.apache.activemq.command.ActiveMQQueue"/>
+		
+	<Resource auth="Container" description="Gateway Request Queue" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="queue/WSGatewayRequestQueue" physicalName="WSGatewayRequestQueue" type="org.apache.activemq.command.ActiveMQQueue"/>
+		
+	<Resource auth="Container" description="Gateway Response Queue" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="queue/WSGatewayResponseQueue" physicalName="WSGatewayResponseQueue" type="org.apache.activemq.command.ActiveMQQueue"/>
+	
+    <Resource auth="Container" description="Scanner Request Topic" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="topic/CPWEScannerRequestTopic" physicalName="CPWEScannerRequestTopic" type="org.apache.activemq.command.ActiveMQTopic"/>
+    
+    <Resource auth="Container" description="Scanner Response Topic" factory="org.apache.activemq.jndi.JNDIReferenceFactory" name="topic/CPWEResponseHandlerTopic" physicalName="CPWEResponseHandlerTopic" type="org.apache.activemq.command.ActiveMQTopic"/>  
+        	
+	<Resource description="Enable commonj AUTODEPLOY Timer" factory="de.myfoo.commonj.timers.FooTimerManagerFactory" name="timer/AUTODEPOSIT" scope="Unshareable" type="commonj.timers.TimerManager"/>
+
+  <Resource description="Enable commonj RULES Timer" factory="de.myfoo.commonj.timers.FooTimerManagerFactory" name="timer/RULES" scope="Unshareable" type="commonj.timers.TimerManager"/>     		
+</Context>

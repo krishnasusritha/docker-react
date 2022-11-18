@@ -1,0 +1,8 @@
+
+qsquid:S1854"8Remove this useless assignment to local variable "accs".(ÁùÅıÿÿÿÿ8ÖÓâ¸Ã/HÍRMAJORZ
+CODE_SMELL
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÖÓâ¸Ã/HÎRMINORZVULNERABILITY
+bsquid:S1481")Remove this unused "accs" local variable.(ÁùÅıÿÿÿÿ8Ôœ¸Ã/HÏRMINORZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÖÓâ¸Ã/HĞRINFOZ
+CODE_SMELL

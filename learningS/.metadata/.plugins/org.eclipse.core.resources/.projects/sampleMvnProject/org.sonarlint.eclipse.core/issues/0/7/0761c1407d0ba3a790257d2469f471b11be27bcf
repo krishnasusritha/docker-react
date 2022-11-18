@@ -1,0 +1,9 @@
+
+q
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ëÓƒ®úÿÿÿÿ8ú“‡Ãç/HúRMAJORZ
+CODE_SMELL
+Ÿ"squid:ClassVariableVisibilityCheck"QMake start a static final constant or non-public and provide accessors if needed.(ïÊ›£8ØËÿÂç/HùRMINORZVULNERABILITY
+l
+squid:S106#"9Replace this use of System.out or System.err by a logger.(½ÛÃÒ8ãô‹Ãç/HûRMAJORZ
+CODE_SMELL
+ž"squid:ClassVariableVisibilityCheck	"PMake rear a static final constant or non-public and provide accessors if needed.(áÕÕö8†ƒ˜Ãç/HýRMINORZVULNERABILITY
